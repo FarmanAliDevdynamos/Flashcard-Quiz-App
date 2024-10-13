@@ -1,0 +1,57 @@
+name: flashcard_quiz_app
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  lottie: ^3.1.2
+  animated_splash_screen: ^1.3.0
+  
+  shared_preferences: ^2.3.2
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+  sqflite_common_ffi: ^2.3.3
+  flutter_card_swiper: ^7.0.1
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets like Lottie animations, images, etc.
+  assets:
+    - assets/lottie/lottie.json
+    - assets/pictures/quiz.png
+    - assets/pictures/technology.jpg
+    - assets/pictures/history.jpg    
+    - assets/pictures/sport.jpg    
+    - assets/pictures/nature.jpg    
+    - assets/pictures/literature.jpg    
+    - assets/pictures/gk.jpg    
+    - assets/pictures/history1.jpg    
+    - assets/pictures/random.jpeg    
+  # Uncomment if you want to add custom fonts in the future
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
